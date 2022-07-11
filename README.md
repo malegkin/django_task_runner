@@ -4,4 +4,6 @@ cd django_task_runner
 
 docker-compose up -d 
 
-open http://127.0.0.1:8000
+open 
+  simple form - http://127.0.0.1:8000
+  admin form - http://127.0.0.1:8000/admin
