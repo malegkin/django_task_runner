@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Task Runner</title>
+    </head>
+    <body>
+        <h2>New Task Form</h2>
+        <form method="post" action="">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Process Task">
+        </form>
+    </body>
+</html>
